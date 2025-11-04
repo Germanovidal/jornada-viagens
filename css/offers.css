@@ -1,3 +1,7 @@
+.offers {
+  margin-bottom: 104px;
+}
+
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -5,9 +9,9 @@
   gap: 24px;
 }
 
-.card {
+.offers-cards .card {
   color: var(--text-secondary-color);
-  background-color: black;
+  background-color: var(--background-secondary-color);
   width: 312px;
   height: 288px;
   padding: 24px 16px;
@@ -15,7 +19,7 @@
   text-align: center;
 }
 
-.card header {
+.offers-cards .card header {
   display: block;
   background-color: transparent;
   position: static;
@@ -23,18 +27,18 @@
   margin-bottom: 24px;
 }
 
-.card header p {
+.offers-cards .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
 }
 
-.card header h3 {
+.offers-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 
-.card header span {
+.offers-cards .card header span {
   font-size: 32px;
   display: inline-block;
   margin-top: 24px;
@@ -58,6 +62,7 @@
 .card.manaus {
   background: url(../img/bg-card-manaus.jpg) no-repeat;
   background-size: cover;
+  margin-bottom: 88px;
 }
 
 @media screen and (min-width: 768px) {
@@ -65,6 +70,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: normal;
   }
 }
 
