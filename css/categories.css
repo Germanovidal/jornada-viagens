@@ -44,7 +44,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .categories-cards .card {
+  .categories-cards a.card {
     width: 280px;
   }
 }
