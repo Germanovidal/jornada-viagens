@@ -38,13 +38,14 @@
     width: 290px;
   }
 
-  .categories-cards .card {
+  .categories-cards a.card {
     width: 430px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .categories-cards .card {
+  .categories-cards a.card {
     width: 280px;
+    gap: 10px;
   }
 }

@@ -1,7 +1,7 @@
 .testimonial-conteiner {
   display: flex;
   flex-direction: column;
-  gap: 300px;
+  gap: 32px;
 }
 
 .testimonial-conteiner article header {
