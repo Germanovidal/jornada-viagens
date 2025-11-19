@@ -63,6 +63,26 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.section-title.pacotes {
+  width: 90vw;
+  margin-left: 30px;
+}
+
+.section-title.pacotes h1 {
+  color: #f5f5f5;
+  font-size: 48px;
+}
+
+.section-title.pacotes p {
+  color: #f5f5f5;
+  width: 80%;
+  font-size: 20px;
+}
+
+.section-title.pacotes hr {
+  margin: 16px 0 32px 0;
+}
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
