@@ -117,5 +117,6 @@
   .offers-cards {
     width: 1250px;
     margin: 0 auto;
+    gap: 40px;
   }
 }
