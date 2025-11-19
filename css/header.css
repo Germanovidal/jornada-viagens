@@ -95,8 +95,12 @@ nav {
     display: none;
   }
 
-  .navigation-menu a:hover {
+  .navigation-menu.home a:hover {
     color: var(--primary-color);
+  }
+
+  .navigation-menu.pacotes a:hover {
+    text-decoration: underline;
   }
 }
 
