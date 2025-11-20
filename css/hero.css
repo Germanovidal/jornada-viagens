@@ -64,6 +64,11 @@
     background: url(../img/hero-japao-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
+  .bottom-hero .hero-img.pacotes {
+    background: url(../img/bottom-hero-japao-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
