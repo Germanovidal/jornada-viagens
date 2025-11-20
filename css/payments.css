@@ -29,6 +29,33 @@
   grid-column: span 2;
 }
 
+.payments.pacotes .button {
+  width: 100%;
+}
+
+.payments.pacotes a {
+  margin: 10px auto 40px;
+}
+
+.payments.pacotes .content-container .text-content .content-title.pacotes {
+  font-size: 40px;
+}
+
+.payments.pacotes .content-container .image-galerry.pacotes .image.temple {
+  background: url(../img/payments-pacotes-temple.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments.pacotes .content-container .image-galerry.pacotes .image.building {
+  background: url(../img/payments-pacotes-buiding.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments.pacotes .content-container .image-galerry.pacotes .image.person {
+  background: url(../img/payments-pacotes-person.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-galerry .image.bag {
     background: url(../img/payments-bags-tablet.jpg) no-repeat;

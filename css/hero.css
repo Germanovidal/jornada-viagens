@@ -1,6 +1,7 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
-.hero.pacotes .hero-img.pacotes {
+.hero.pacotes .hero-img.pacotes,
+.bottom-hero .hero-img.pacotes {
   width: 100%;
   height: 400px;
 }
@@ -34,6 +35,11 @@
   padding: 65px 0;
 }
 
+.bottom-hero .hero-img.pacotes {
+  background: url(../img/bottom-hero-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -51,6 +57,17 @@
     padding: 88px 60px;
     font-size: 32px;
     text-align: center;
+  }
+
+  .hero.pacotes .hero-img.pacotes {
+    height: 620px;
+    background: url(../img/hero-japao-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img.pacotes {
+    background: url(../img/bottom-hero-japao-tablet.jpg) no-repeat;
+    background-size: cover;
   }
 }
 
@@ -75,6 +92,50 @@
   .hero h2 {
     padding: 88px 120px;
   }
+
+  .hero.pacotes .hero-img.pacotes {
+    height: 620px;
+    background: url(../img/hero-japao-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img.pacotes {
+    height: 600px;
+    background: url(../img/bottom-hero-japao-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-hero .hero-img {
+    height: 600px;
+  }
+
+  .hero .hero-img {
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    height: 825px;
+  }
+
+  .hero .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/bottom-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 88px 400px;
+  }
+
+  .hero.pacotes .hero-img.pacotes {
+    background: url(../img/hero-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img.pacotes {
+    background: url(../img/bottom-hero-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -96,5 +157,17 @@
 
   .hero h2 {
     padding: 88px 400px;
+  }
+
+  .hero.pacotes .hero-img.pacotes {
+    height: 620px;
+    background: url(../img/hero-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img.pacotes {
+    height: 600px;
+    background: url(../img/bottom-hero-japao-desktop.jpg) no-repeat;
+    background-size: cover;
   }
 }
